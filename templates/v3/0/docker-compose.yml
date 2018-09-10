@@ -600,7 +600,7 @@ services:
       io.rancher.container.requested_ip: 10.42.211.211
       io.rancher.scheduler.affinity:host_label_soft_ne: kraken=1,tiamat=1
   mongodb:
-    image: siemonster_mongo
+    image: siemonster_mongo:latest
     environment:
       MONGODB_DATABASE: ${MONGODB_DATABASE}
       MONGODB_PASS: ${MONGODB_PASS}
